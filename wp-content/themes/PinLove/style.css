@@ -1,0 +1,435 @@
+/*
+ Theme Name: PinLove
+ Theme URI: 
+ Description: Custom WordPress theme designed by Jamie Bradley.
+ Author: Jamie Bradley
+ Author URI: 
+ Version: 1.0
+ */
+
+/*----------------------------------------------------------------
+CSS RESET
+----------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+/* CSS RESET */
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight:normal;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 14px;
+	line-height: 17px;	
+}
+address{
+	font-style:normal;
+}
+strong, b {
+font-weight:700;
+}
+html {
+}
+body {
+	font-family: "Open Sans", Sans, Arial, sans-serif;
+	margin:0 auto;
+	padding:0;
+	color:#999999;
+	font-size:12px;
+	line-height:17px;
+	background: #d1cfcd; 
+}
+img {border-style:none;}
+a {
+	text-decoration:none;
+	color:#d1cfcd;
+	-webkit-transition: all 200ms ease-in;
+	-moz-transition: all 200ms ease-in;
+	-o-transition: all 200ms ease-in;
+	transition: all 200ms ease-in;	
+	color:#000;
+}
+a:hover {color:#333;}
+h1, h2, h3, h4, h5, h6 {
+	margin:0 0 12px 0;
+	padding:0;
+	font-family:"Open Sans", Sans, Arial, sans-serif;
+	color:#000;
+}
+h1, h1 a{
+	font-size:24px;
+	line-height:26px;
+	/* font-weight:700; */
+	
+	color: #999999;
+}
+h2, h2 a {
+	font-size:18px;
+	line-height:20px;
+	font-weight:600;
+	color:#999999;
+}
+a h2:hover{color:#0195CC;}
+h3, h3 > a {
+	font-size:17px;
+	line-height:20px;
+	padding: 10px 0 0;
+}
+h4 {
+	font-size:16px;
+	line-height:18px;
+	padding: 10px 0 0;
+}
+h5 {
+	font-size:14px;
+	line-height:16px;
+}
+h6 {
+	font-size: 15px;
+	line-height:14px;
+	font-weight: 600;
+}
+
+	p{margin-bottom:12px;}
+a:hover {text-decoration:none;}
+a:focus {outline:none;}
+/* a img:hover {opacity:0.7; filter:alpha(opacity=70);} */
+input, textarea, select{vertical-align:middle; resize:none !important;}
+form, fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+blockquote {
+padding:0.5em;
+margin:0.5em;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+dl {}
+dt {}
+dd {}
+div {}
+figure {}
+figcaption {}
+hr {
+	height:0px;
+	border:none;
+	border-top:2px dashed #b5b5b5;
+	margin: 0 0 25px 0;
+	
+	
+	}
+ol {
+	list-style: decimal outside;
+	margin-left:1.5em;
+	}
+ol li ol{
+	list-style: upper-alpha outside;
+	}
+ol li ol li ol {
+	list-style: lower-alpha outside;
+	}
+
+ul {
+	list-style: disc outside;
+	margin-left:2em;
+}
+ul li ul {
+	list-style: circle outside;
+	}
+ul li ul li ul {
+	list-style: disc outside;
+	}	
+::-webkit-input-placeholder  { color:#d1cfcd; }
+input:-moz-placeholder { color:#d1cfcd; }
+
+table {}
+table > thead {}
+table > tbody {}
+table > tbody > tr {}
+table > tbody > tr > td {
+	padding:0px 2.5px;
+	line-height:15px;
+}
+/* General Classes */
+a{cursor: pointer;}
+.left{float:left;}
+.right{float:right;}
+div{display:block;}
+#content_wrapper, .header_wrapper{ width:100%;}
+#content_wrapper{margin-top: 50px!important;}
+a.no_underline{
+	text-decoration:none!important;
+}
+/*---------------------------------------------------------------
+CSS RESET
+----------------------------------------------------------------*/
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	/*background-color: #ccffcc; /*mint green*/
+}
+
+/*----Banner------------------------------------------------------*/
+.banner{
+	width: 100%;
+	height: 30%;
+	border-bottom: 2px solid gray;
+	/*background-color: #ffcccc; /*lt pink*/
+}
+
+.banner h2{
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	font-size: 2.500em; /*24px*/
+	font-family: 'Poiret One', Arial, serif;
+	padding-top: 0.25%;
+}
+
+.banner img{
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	position: relative;
+	float: right;
+	vertical-align: top;
+}
+/*----Banner-----------------------------------------------------*/
+
+/*----Menu------------------------------------------------------*/
+.mainMenu{
+	width: 100%;
+	display: block;
+}
+
+.mainMenu ul{
+	list-style-type: none;
+	position: relative;
+	margin: 0;
+}
+
+.mainMenu ul li{
+	display: inline-block;
+	float: right;
+	position: relative;
+	margin: 0.650em;
+	border-right: 2px solid gray;
+	border-bottom: 2px solid gray;
+	border-radius: 25%;
+}
+
+.mainMenu ul li:hover{
+	color: gray;
+	background-color: #ccffcc;
+
+}
+/*----Menu------------------------------------------------------*/
+
+/*----Main Content Area-----------------------------------------*/
+.mainContent-area{
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+	clear: both;
+}
+
+/*----Left Content---------------------------------------------*/
+.contentLeft{
+	width: 80%; /*original - 60% */
+	display: inline-block;
+	position: relative;
+	height: 100%;
+}
+
+#home-titleArea{
+	font-family: 'Poiret One', Arial, serif;
+	border-bottom: 2px solid gray;
+	margin-bottom: 2%;
+	/*background-color: #ffccff; /*lavender*/
+}
+
+#homeCol-1{
+	display: inline-block;
+	position: relative;
+	width: 48%;
+}
+
+#homeCol-2{
+	display: inline-block;
+	position: relative;
+	width: 48%;
+	float: right;
+}
+/*----Left Content---------------------------------------------*/
+
+/*----Right Content--------------------------------------------*/
+.contentRight{
+	width: 20%; /*original - 35% */
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-top: 7%;
+}
+
+.ME{
+	font-family: 'Poiret One', Arial, serif;
+	display: block;
+	text-align: center;
+}
+
+.mePic{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+	border-radius: 50%;
+}
+
+#ME{
+	font-family: 'Poiret One', Arial, serif;
+	display: block;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#homePost{
+	font-family: 'Poiret One', Arial, serif;
+	display: block;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+/*------------------------------------------------------------------------
+------About Me page-------------------------------------------------------
+------------------------------------------------------------------------*/
+
+#meCol-1{
+	display: inline-block;
+	position: relative;
+	width: 48%;
+	float: left;
+}
+
+#meCol-2{
+	display: inline-block;
+	position: relative;
+	width: 48%;
+	clear: both;
+}
+
+.DIYprojects{
+	
+}
+
+.myDIY h2{
+	text-align: center;
+	font-family: 'Poiret One', Arial, serif;
+
+}
+.DIYprojects h3{
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Poiret One', Arial, serif;
+
+}
+
+.DIYprojects img{
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+.DIYprojects p{
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------------
+------About Me page------------------------------------------------------
+------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------
+------Pin Gallery page------------------------------------------------------
+------------------------------------------------------------------------*/
+
+#galleryCol{
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	height: 100%;
+	margin: 0 2%;
+}
+
+.pin img{
+	width: 100%;
+	border-radius: 25%;
+}
+
+.pin p{
+	width: 100%;
+}
+
+.pinGallery{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pinGallery ul{
+	list-style-type: none;
+}
+
+.pinGallery ul li{
+	display: block;
+	width: 40%;
+	text-align: center;
+	margin: 6% 2%;
+	margin-left: 20%;
+	font-family: 'Poiret One', Arial, serif;
+}
+
+.pinGallery ul li:hover{
+	border-bottom: 2px solid gray;
+}
+/*-----------------------------------------------------------------------
+------Pin Gallery page------------------------------------------------------
+------------------------------------------------------------------------*/
+
+/*----Footer--------------------------------------------*/
+.footer{
+	display: none;
+	width: 80%;
+	/*position: absolute;
+	bottom: 0;
+	left: 0;*/
+	margin: 0 auto;
+	background-color: blue;
+	color: white;
+	clear: both;
+}
+
+.footer ul{
+	list-style-type: none;
+}
+
+.footer ul li{
+	display: inline-block;
+	position: relative;
+}
+/*----Footer--------------------------------------------*/

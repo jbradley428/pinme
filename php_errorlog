@@ -1,0 +1,6 @@
+[13-Jan-2015 02:34:54 UTC] PHP Fatal error:  Call to undefined function two_column() in /home/pinteres/public_html/wp-content/themes/PinLove/index.php on line 38
+[13-Jan-2015 02:39:20 UTC] PHP Fatal error:  Call to undefined function second_column() in /home/pinteres/public_html/wp-content/themes/PinLove/index.php on line 38
+[13-Jan-2015 03:33:30 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/pinteres/public_html/wp-content/themes/PinLove/pinBlog.php on line 34
+[13-Jan-2015 03:36:44 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/pinteres/public_html/wp-content/themes/PinLove/pinBlog.php on line 24
+[17-Jan-2015 16:15:41 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/pinteres/public_html/wp-content/themes/PinLove/pinBlog.php on line 24
+[17-Jan-2015 16:15:50 UTC] PHP Fatal error:  Call to a member function have_posts() on a non-object in /home/pinteres/public_html/wp-content/themes/PinLove/pinBlog.php on line 24

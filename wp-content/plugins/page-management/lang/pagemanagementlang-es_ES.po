@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Management v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-21 15:13:01+0000\n"
+"Last-Translator: WPShowCase <translate@wpshowcase.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: page-management.php:0
+#@ pagemanagementlang
+msgid "Page Management"
+msgstr "Gestión de página"
+
+#. translators: plugin header field 'PluginURI'
+#: page-management.php:0
+#@ pagemanagementlang
+msgid "http://www.wpshowcase.net/plugins/page-management-plugin/"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: page-management.php:0
+#@ pagemanagementlang
+msgid "WPShowCase"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: page-management.php:0
+#@ pagemanagementlang
+msgid "http://www.wpshowcase.net"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: page-management.php:0
+#@ pagemanagementlang
+msgid "2.0"
+msgstr ""
+
+#: page-management.php:75
+#@ default
+msgid "You are not allowed to edit this page."
+msgstr "No tienes permiso para modificar esta página."
+
+#: page-management.php:107
+#@ default
+msgid "Invalid post type"
+msgstr "tipo de mensaje no válido"
+
+#: page-management.php:188
+#@ pagemanagementlang
+msgid "Page Settings"
+msgstr "Configuración de página"
+
+#: page-management.php:200
+#@ pagemanagementlang
+msgid "Choose Page Management Settings"
+msgstr "Elija los valores de administración Página"
+
+#: page-management.php:203
+#@ pagemanagementlang
+msgid "Page Management allows you to show/hide the subpages on your site and allows you to drag and drop when sorting the pages. Here are options to improve even more the functionality of your site."
+msgstr "Gestión de la página le permite mostrar / ocultar las subpáginas en su sitio y le permite arrastrar y soltar al ordenar las páginas. Hay opciones para mejorar aún más la funcionalidad de su sitio."
+
+#: page-management.php:246
+#@ pagemanagementlang
+msgid "Support!"
+msgstr "ayuda!"
+
+#: page-management.php:249
+#@ pagemanagementlang
+msgid "If you like this plugin, please donate to support its continued developement."
+msgstr "Si te gusta este plugin, por favor done para apoyar su continuo Desarrollos."
+
+#: page-management.php:256
+#@ pagemanagementlang
+msgid "Page Management plugin development"
+msgstr "Página Gestión plugin de desarrollo"
+
+#: page-management.php:265
+#@ pagemanagementlang
+msgid "If you like this plugin and would like to support in other ways, please"
+msgstr "Si te gusta este plugin y quiere apoyar de otras maneras, por favor"
+
+#: page-management.php:269
+#@ pagemanagementlang
+msgid "Rate Page Management as a fantastic plugin on wordpress"
+msgstr "Tasa Página gestión como un plugin de wordpress fantástica"
+
+#: page-management.php:272
+#@ pagemanagementlang
+msgid "Recommend this plugin to more people."
+msgstr "Recomiendo este plugin a más personas."
+
+#: page-management.php:275
+#@ pagemanagementlang
+msgid "The more people using this plugin, the faster it will get developed - so you are helping yourself by encouraging more people to use this plugin!"
+msgstr "Mientras más personas que utilizan este plugin, más rápido se conseguirán desarrollado - por lo que se está ayudando, alentando a más personas a utilizar este plugin"
+
+#: page-management.php:208
+#@ pagemanagementlang
+msgid "Page and Post Settings"
+msgstr "Configuración de página y de Correos"
+
+#: page-management.php:212
+#@ pagemanagementlang
+msgid "Expand pages by default (so that you can see the subpages). Tick here to show the subpages when viewing your site's pages. "
+msgstr "Abrir las páginas por defecto (para que pueda ver las páginas secundarias). Marque aquí para ver las subpáginas al visualizar las páginas de su sitio. "
+
+#: page-management.php:217
+#@ pagemanagementlang
+msgid "Remove pagination when editing pages and posts. Tick here to see all the pages on one page. "
+msgstr "Eliminar la paginación al editar páginas y mensajes. Marque aquí para ver todas las páginas en una sola. "
+
+#: page-management.php:221
+#@ pagemanagementlang
+msgid "Images and Media Settings"
+msgstr "Imágenes y ajustes medios"
+
+#: page-management.php:225
+#@ pagemanagementlang
+msgid "If you would like to show the images files for each post by default (instead of all the image files), then tick here "
+msgstr "Si desea mostrar los archivos de imágenes para cada entrada por defecto (en lugar de todos los archivos de imagen), a continuación, marque aquí "
+
+#: page-management.php:229
+#@ pagemanagementlang
+msgid "Text Editor Settings"
+msgstr "Configuración del editor de texto "
+
+#: page-management.php:233
+#@ pagemanagementlang
+msgid "If you would like add a dropdown with your site's shortcodes to the rich text editor, then tick here. "
+msgstr "Si desea agregar un menú desplegable con los códigos cortos de su sitio para el editor de texto enriquecido, a continuación, marque aquí. "
+
+#. translators: plugin header field 'Description'
+#: page-management.php:0
+#@ pagemanagementlang
+msgid "Page Management is a great tool which allows you to do loads of useful things including to hide/expand subpages when viewing the page hierarchy, to display all pages/posts on the same page, to reorder pages using drag and drop, to show the current page's media files by default and to add a shortcode dropdown of all the site's shortcodes."
+msgstr "Gestión de la página es una gran herramienta que te permite hacer un montón de cosas útiles, como para ocultar / ampliar subpáginas al ver la jerarquía de la página para mostrar todas las páginas / puestos en la misma página, para reordenar las páginas mediante arrastrar y soltar, para mostrar la corriente archivos multimedia de la página por defecto y añadir un código corto desplegable de todos los códigos cortos del sitio."
+
