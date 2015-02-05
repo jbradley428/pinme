@@ -176,6 +176,9 @@ CSS RESET
 .wrapper{
 	width: 100%;
 	height: 100%;
+	background-color: #ffffff;
+	color: #333333;
+
 	/*background-color: #ccffcc; /*mint green*/
 }
 
@@ -183,7 +186,7 @@ CSS RESET
 .banner{
 	width: 100%;
 	height: 30%;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid #81d8d0;
 	/*background-color: #ffcccc; /*lt pink*/
 }
 
@@ -224,8 +227,8 @@ CSS RESET
 	float: right;
 	position: relative;
 	margin: 0.650em;
-	border-right: 2px solid gray;
-	border-bottom: 2px solid gray;
+	border-right: 2px solid #333333;
+	border-bottom: 2px solid #333333;
 	border-radius: 25%;
 }
 
@@ -255,9 +258,8 @@ CSS RESET
 
 #home-titleArea{
 	font-family: 'Poiret One', Arial, serif;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid #b6b6b4;
 	margin-bottom: 2%;
-	/*background-color: #ffccff; /*lavender*/
 }
 
 #homeCol-1{
